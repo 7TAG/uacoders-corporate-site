@@ -1,0 +1,28 @@
+---
+import PageHeader from "@/components/core/PageHeader.astro";
+import Base from "@/layouts/Base.astro";
+import { getEntry } from "astro:content";
+import { SiUpwork } from "react-icons/si";
+
+const services = await getEntry("services.html", "index");
+
+const page_data = {
+  ...services.data,
+  content: services.body,
+};
+
+const { Content } = await services.render();
+---
+
+<Base
+  entry_keys={["services.html", "index"]}
+>
+  <section class="py-16">
+    <div class="container">
+      <div class="mx-auto max-w-[768px] text-center">
+        <PageHeader page_data={page_data} />
+      </div>
+      <Content />
+    </div>
+  </section>
+</Base>

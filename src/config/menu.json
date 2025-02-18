@@ -1,0 +1,34 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Services",
+      "url": "/services.html"
+    },
+    {
+      "name": "FAQ",
+      "url": "/faq.html"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact.html"
+    },
+    {
+      "name": "About",
+      "url": "/about.html"
+    }
+  ],
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about.html"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact.html"
+    }
+  ]
+}

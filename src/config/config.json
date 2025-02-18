@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "UACODERS",
+    "base_url": "https://UACODERS.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo.png",
+    "logo_width": "47",
+    "logo_height": "47",
+    "logo_text": "UACODERS"
+  },
+
+  "params": {
+    "footer_description": "UACODERS can code anything you need!!",
+    "email": "",
+    "location": "Ukraine, Zhytomyr, Pokrovska Street Building 20.",
+    "phone": "",
+    "contact_form_action": "#",
+    "copyright": ""
+},
+
+  "metadata": {
+    "meta_author": "UACODERS",
+    "meta_image": "/images/logo.png",
+    "meta_description": "UACODERS. The custom software development.",
+    "meta_keywords": ["UACODERS", "Software development", "Consulting", "Software architecture", "ReactJS", "Programmers", "Python"],
+    "meta_application_name": "UACODERS corporate site"
+  }
+}

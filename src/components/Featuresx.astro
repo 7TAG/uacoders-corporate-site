@@ -1,0 +1,21 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
+import HomepageFeaturex from "@/components/react/HomepageFeaturex";
+const { featuresx } = Astro.props;
+const { title, description, featurex_list } = featuresx;
+---
+
+<section class="section key-feature relative">
+  <div class="container">
+    <div class="row justify-between text-center lg:text-start ">
+      <div class="lg:col-7">
+        <h1 set:html={markdownify(title)} />
+      </div>
+      <div class="mt-6 lg:col-5 lg:mt-0 text-text-secondary">
+        <p set:html={markdownify(description)} />
+      </div>
+    </div>
+    <HomepageFeaturex featurex_list={featurex_list} client:load />
+  </div>
+</section>

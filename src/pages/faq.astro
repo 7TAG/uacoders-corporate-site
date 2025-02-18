@@ -1,0 +1,26 @@
+---
+import PageHeader from "@/components/core/PageHeader.astro";
+import Base from "@/layouts/Base.astro";
+import { getEntry } from "astro:content";
+import { SiUpwork } from "react-icons/si";
+
+const faq = await getEntry("faq.html", "index");
+const page_data = {
+  ...faq.data,
+  content: faq.body,
+};
+const { Content } = await faq.render();
+---
+
+<Base
+  entry_keys={["faq.html", "index"]}
+>
+  <section class="py-16">
+    <div class="container">
+      <div class="mx-auto max-w-[768px] text-center">
+        <PageHeader page_data={page_data} />
+      </div>
+      <Content />
+    </div>
+  </section>
+</Base>

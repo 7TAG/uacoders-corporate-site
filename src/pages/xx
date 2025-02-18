@@ -1,0 +1,42 @@
+---
+import Logo from '../components/Logo.astro';
+---
+<link rel="stylesheet" type="text/css"
+    href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+<style>
+body {
+  font-family: "Computer Modern Serif", serif;
+}
+</style>
+
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <title>UACoders</title>
+  </head>
+
+  <body >
+    <header class="flex justify-between items-center p-6">
+      <img src="/assets/uacoders-logo.png" alt="UACoders" class="h-12">
+    </header>
+    asdfaslfkjas; lkjasdlkf j
+
+    <section class="h-[60vh] flex flex-col justify-center items-center bg-cover bg-center text-center"
+      style="background-image: url('/assets/header.jpg');">
+      <h1 class="text-5xl font-bold text-white animate-fade-in">
+        Ласкаво просимо в UACoders!
+      </h1>
+      <p class="text-lg text-white mt-3">Розробка програмного забезпечення, веб-розробка та консалтинг</p>
+      <a href="#services" class="mt-6 px-6 py-3 bg-secondary text-white font-bold rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out">
+        Дізнатися більше
+      </a>
+    </section>
+
+    <section id="services" class="py-20 text-center">
+      <h2 class="text-4xl font-bold text-primary">Наші послуги</h2>
+      <p class="mt-4 text-lg">Hello </p>
+    </section>
+  </body>
+</html>
+
+  <!---<body class="bg-background text-text"> >
