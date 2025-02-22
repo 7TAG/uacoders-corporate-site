@@ -10,7 +10,7 @@ import AutoImport from "astro-auto-import";
 export default defineConfig({
   site: "https://www.uacoders.com/",
 //  base: config.site.base_path ? config.site.base_path : "/",
-  base:"/uacoders-corporate-site",
+  base:"/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   vite: {
     css: {
