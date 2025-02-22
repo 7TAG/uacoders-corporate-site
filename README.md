@@ -1,5 +1,6 @@
 # Astro Starter Kit: Basics
 
+Uacoders corporate site based on Astro
 ```sh
 npm create astro@latest -- --template basics
 ```
