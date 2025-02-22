@@ -6,29 +6,29 @@
     },
     {
       "name": "Services",
-      "url": "/services.html"
+      "url": "/services"
     },
     {
       "name": "FAQ",
-      "url": "/faq.html"
+      "url": "/faq"
     },
     {
       "name": "Contact",
-      "url": "/contact.html"
+      "url": "/contact"
     },
     {
       "name": "About",
-      "url": "/about.html"
+      "url": "/about"
     }
   ],
   "footer": [
     {
       "name": "About",
-      "url": "/about.html"
+      "url": "/about"
     },
     {
       "name": "Contact",
-      "url": "/contact.html"
+      "url": "/contact"
     }
   ]
 }
