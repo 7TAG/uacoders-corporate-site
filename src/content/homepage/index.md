@@ -8,7 +8,7 @@ banner:
   image: /images/uacoders-logo-banner.webp
   buttons:
     - label: Contact us
-      href: "https://contact.uacoders.com/contact"
+      href: "https://www.uacoders.com/contact"
       target: "_blank"
       icon: _GitHub
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
